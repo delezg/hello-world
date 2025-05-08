@@ -1,0 +1,9 @@
+name: Saludo Inicial
+on: [push]
+
+jobs:
+  decir-hola:
+    runs-on: windows-latest
+    steps:
+      - name: Paso 1 - Mensaje simple
+        run: echo "¡Mi primer workflow funciona!"
